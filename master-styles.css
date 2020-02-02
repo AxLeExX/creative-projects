@@ -1,0 +1,112 @@
+* { /* Resets everything so different browsers don't affect layout */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-light {
+  background-color: #FFFFFF !important;
+  border-bottom: solid 5px #BE1E2D !important;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.nav-item a {
+  font-size: 25px;
+  font-family: sanvito-pro, sans-serif;
+  color: #000000 !important;
+  padding: 0px 0px !important;
+}
+.active a {
+  color: #BE1E2D !important;
+}
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #cdc0b0;
+  align-content: center;
+}
+
+.page-title {
+  border-top: 10px solid #cdc0b0;
+  font-family: sanvito-pro, sans-serif;
+  color: #BE1E2D;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+
+.page {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.content {
+  padding: 0em 5em;
+  column-count: 2;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sanvito-pro, sans-serif;
+}
+
+a {
+  color: #BE1E2D;
+}
+a:hover {
+  color: #BE1E2D;
+  text-decoration: underline;
+}
+
+p, li, .sample {
+  font-family: garamond;
+}
+
+li, .sample {
+  padding: 0em 2em;
+}
+.sample a {
+  font-size: 20px;
+}
+
+.profile-image-1 {
+  display: flex;
+  padding: 1em 5em;
+  transform: rotate(90deg);
+}
+.profile-image-2 {
+  display: flex;
+  padding: 1em 5em;
+}
+
+.space-home {
+  height: 200px;
+}
+.space-services {
+  height: 400px;
+}
+.space-portfolio {
+  height: 500px;
+}
+.space-contact {
+  height: 420px;
+}
+
+
+.footer {
+  background-color: #BE1E2D;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+.footer a {
+  color: #FFFFFF;
+}
